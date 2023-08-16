@@ -973,7 +973,7 @@ $(function () {
         // }
         $('#subredditUrl').html("<a href=\' https://www.e621.net \'> E621.net</a>");
 
-        document.title = "redditP - " + e621pTags;
+        document.title = "e621p - " + (e621pTags ? e621pTags : "Latest");
     };
 
 
