@@ -613,7 +613,7 @@ $(function () {
         if(photo.isVideo & photo.url.indexOf('gfycat.com') >= 0 | (photo.url.substr(photo.url.lastIndexOf('.')+1)) == "mp4"){
           //console.log("correct");
 		  videoReadyToEnd = false;
-          divNode.html('<video autoplay playsinline class="mp4" width="100%" height="100%" loop="true" onended="slideNext()" controls> <source src="'+photo.url+'"type="video/mp4"></video>');
+          divNode.html('<video autoplay playsinline class="mp4" width="100%" height="100%" loop="true" controls> <source src="'+photo.url+'"type="video/mp4"></video>');
         }
 
         //imgNode.appendTo(divNode);
